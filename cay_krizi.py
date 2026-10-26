@@ -9,9 +9,8 @@ import random
 import time
 
 # Gizli siyasi mesaj (şifreli, sadece bilen bilir)
-# Base64: "Özgürlük kötü değildir, ama çay fincanları daha özgürdür." 
-# Decode etmek istersen: import base64; base64.b64decode(b'...')
-GIZLI = "w5Z6Z8O8cmzDvGsga8O2dMO8IGRlZ2lsZGlyLCBhbWEgw6dheSBmaW5jYW5sYXJ1IGRhaGEgw7Z6Z8O8cmTDvHIu"
+# Base64 çözersen: Özgürlük kötüdür diyenlere çay fincanı daha özgürdür deriz.
+GIZLI = "w5Z6Z8O8cmzDvGsga8O2dMO8ZMO8ciBkaXllbmxlcmUgw6dheSBmaW5jYW7EsSBkYWhhIMO2emfDvHJkw7xyIGRlcml6Lg=="
 
 def kriz_uret():
     baslangic = [
